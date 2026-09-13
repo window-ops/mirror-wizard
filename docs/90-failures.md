@@ -32,8 +32,8 @@ awk -F'\t' 'NR==FNR{want[$1];next} ($2 in want)' remaining.txt "$PROJECT_FILE" >
 ## Frozen terminal on Git Bash
 
 Ctrl+C sometimes fails to reach curl, leaving the window unresponsive. Close it, open a new one,
-rerun [session setup](03-session.md), then resume as above. Loops carry
-`--connect-timeout 10 --max-time 30` to bound any single stalled request.
+rerun [session setup](03-session.md), then resume as above. Loops have
+`--connect-timeout 10 --max-time 30` to limit time at any single stalled request.
 
 ---
 
