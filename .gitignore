@@ -1,0 +1,10 @@
+projects.tsv
+one.tsv
+retry.tsv
+exclude.txt
+*.log
+gh_resp.json
+gl_resp.json
+remaining.txt
+.done.txt
+.filtered
