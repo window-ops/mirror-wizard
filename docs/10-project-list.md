@@ -1,7 +1,8 @@
 # A. Build the project list
 
 `$PROJECT_FILE` has four tab-separated columns: GitLab project ID, repository name, full namespace
-path, visibility. Regenerating it takes about a minute, so the file is disposable.
+path, visibility. Every loop in this repository reads it. Regenerating it takes about a minute, so
+the file is disposable.
 
 ```bash
 : > "$PROJECT_FILE"
@@ -53,6 +54,8 @@ awk -F'\t' '$2=="PROJECT_NAME"' "$PROJECT_FILE" > one.tsv
 ```
 
 Substitute `one.tsv` wherever a loop reads `"$PROJECT_FILE"`.
+
+For a single new project, [add one project](30-add-one.md) skips enumeration entirely.
 
 ---
 

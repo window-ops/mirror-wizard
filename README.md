@@ -17,7 +17,7 @@ Read [parameters](docs/01-parameters.md), [prerequisites](docs/02-prerequisites.
 | Mirrors failing, cause unknown | [Read mirror status](docs/20-status.md) |
 | GitHub token replaced or revoked | [Rebuild mirrors](docs/21-rebuild.md) |
 | GitHub repositories deleted, GitLab mirrors intact | [Create GitHub repositories](docs/11-create-repos.md) |
-| New GitLab project added | [Build the project list](docs/10-project-list.md) |
+| New GitLab project added | [Add one project](docs/30-add-one.md) |
 | Repositories created with the wrong visibility | [Correct visibility](docs/22-visibility.md) |
 | Sync reported success, GitHub appears empty | [Verify content](docs/23-verify.md) |
 | A repository is too large to push | [Size limits](docs/91-size-limits.md) |
